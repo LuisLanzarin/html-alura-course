@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Inicio do curso!</title>
+    </head>
+    <body>
+        <h1>Luis Felipe Oliveira Lanzarin</h1>
+        <h2>Apresentação:</h2>
+        <p>Meu nome é Luis Felipe Oliveira Lanzarin, tenho
+           25 anos e inicei meus estudos para front-end 
+           em 11/03/2025</p>
+        <img src="html.png" alt="Logo html 5">
+        <h3>No decorrer dos proximos dias estarei 
+            aprimorando meus conhecimentos em:</h3>
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+            <li>Automação e performace</li>
+            <li>Back-end</li>
+            <li>Programação fullstack</li>
+        </ul>
+    </body>
+</html>
