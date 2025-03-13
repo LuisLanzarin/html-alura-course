@@ -15,8 +15,6 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 1000px;
-    height: 150px;
     margin: 0;
     padding: 0;
     
@@ -26,11 +24,9 @@ video {
 }
 .titulo{
     color: #22D4FD;
-    width: 1000px;
 }
 .subtitulo{
     color: #22D4FD;
-    margin-left: 250px;
 }
 .importante {
     color: #22D4FD
@@ -39,14 +35,6 @@ main p{
     background-color: black;
     height: 600px;
     width: 600px;
-    margin-left: 250px;
-    
-}
-    h1 {
-        font-size: 24px;
-        max-width: 6000px;
-        margin: 1px;
-        font-weight: bold;
 }
 main {
     width: 1000px;
@@ -55,7 +43,6 @@ main {
 footer {
     margin-top: 0;
     color: #e5e5e5;
-    margin-left: 250px;
 }
 a {
     color: white;
