@@ -9,8 +9,10 @@
     </head>
     <body class="darkmode">
        <header> <!---Inicio do site/app, o que vem primeiro, titulos, informações iniciais--->
-           <img src="LOGO.png" style="margin-right: 5px">
-           <div styile="display: flex; align-content: center;">
+           <video width="150" height="150" autoplay loop muted>
+        <source src="videologo.mp4" type="video/mp4">
+    </video>
+           <div style="display: flex; align-content: center;">
            <h1><strong>Portfólio de Luis Lanzarin</strong>
            <br>Luis Lanzarin's portfolio</h1>
            </div>
@@ -20,7 +22,7 @@
             <p>Hi, I'm Luis Lanzarin, a <span>fullstack developer</span> specializing in <span>Python</span> and <span>HTML</span>,
             trained in ALURA courses and developing freelance projects. Here's my portfolio of projects:</p>
             
-        </main>
+        </main>    
         <footer><!---Rodapé do site/app, informações finais--->
             <h4>Contatos:</h4>
             <a href="https://www.instagram.com/luis_lanzarinn/">
@@ -30,7 +32,7 @@
             <a href="https://github.com/LuisLanzarin/html-alura-course/tree/main"><button class="glow-on-hover"><div style="display: flex;
                 align-items: center;"><img src="github-mark-white.png" style="width: 25px; height: 25px;"><p style="color: white">GitHub</p></div></button>
             </a>
-            <br><a href="https://www.linkedin.com/in/luis-lanzarin-7a77aa267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ">
+            <br><br><a href="https://www.linkedin.com/in/luis-lanzarin-7a77aa267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ">
                 <button class="glow-on-hover"><div style="display: flex; align-items: center;"><img src="linkedin.png" style="width: 25px; height: 25px;">
                 <p style="color: white">Linkedin</p></div></button>
             </a>
@@ -42,3 +44,4 @@
     </body>
     <!---header, main e footer são exemplos de tags semânticas--->
 </html>
+
