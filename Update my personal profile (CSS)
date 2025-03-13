@@ -5,7 +5,7 @@
 body {
     background-color: black;
     color: #e5e5e5;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     box-sizing: border-box;
 }
@@ -31,14 +31,11 @@ video {
 .importante {
     color: #22D4FD
 }
-main p{
-    background-color: black;
-    height: 600px;
-    width: 600px;
-}
-main {
-    width: 1000px;
+.projetos{
     color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 footer {
     margin-top: 0;
@@ -110,3 +107,4 @@ a {
     align-content: center;
     padding: 10px;
 }
+
