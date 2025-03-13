@@ -13,35 +13,35 @@
         <source src="videologo.mp4" type="video/mp4">
     </video>
            <div style="display: flex; align-content: center;">
-           <h1><strong>Portfólio de Luis Lanzarin</strong>
-           <br>Luis Lanzarin's portfolio</h1>
+           <h1><strong class="titulo">Portfólio de Luis Lanzarin</strong>
+           <br><strong class="titulo">Luis Lanzarin's portfolio</strong></h1>
            </div>
         </header>
         <main><!---Meio do site/app, informações centrais--->
-           <h1><strong>Portfolio under construction</strong></h1>
-            <p>Hi, I'm Luis Lanzarin, a <span>fullstack developer</span> specializing in <span>Python</span> and <span>HTML</span>,
-            trained in ALURA courses and developing freelance projects. Here's my portfolio of projects:</p>
-            
+           <h1><strong class="subtitulo">Portfolio under construction</strong></h1>
+            <p>Hi, I'm Luis Lanzarin, a <strong class="importante">fullstack developer</strong> specializing in 
+            <strong class="importante">Python</strong> and <strong class="importante">HTML</strong>, trained in ALURA 
+            courses and developing freelance projects. Here's my portfolio of projects:</p>  
         </main>    
         <footer><!---Rodapé do site/app, informações finais--->
             <h4>Contatos:</h4>
-            <a href="https://www.instagram.com/luis_lanzarinn/">
-                <button class="glow-on-hover"><div style="display: flex; align-items: center;"><img src="LogoInstagram.png" style="width: 25px; height: 25px;">
-                <p style="color: white">Instagram</p></div></button>    
+            <a href="https://www.instagram.com/luis_lanzarinn/"><button class="contatos">
+               <div class="botton" style="display: flex; align-items: center;"><img class="imglogos" src="LogoInstagram.png">
+               <p style="color: #22D4FD">Instagram</p></div></button>    
             </a>
-            <a href="https://github.com/LuisLanzarin/html-alura-course/tree/main"><button class="glow-on-hover"><div style="display: flex;
-                align-items: center;"><img src="github-mark-white.png" style="width: 25px; height: 25px;"><p style="color: white">GitHub</p></div></button>
+            <a href="https://github.com/LuisLanzarin/html-alura-course/tree/main"><button class="contatos">
+               <div style="display: flex;align-items: center;"><img class="imglogos" src="github-mark-white.png">
+               <p style="color: #22D4FD">GitHub</p></div></button>
             </a>
-            <br><br><a href="https://www.linkedin.com/in/luis-lanzarin-7a77aa267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ">
-                <button class="glow-on-hover"><div style="display: flex; align-items: center;"><img src="linkedin.png" style="width: 25px; height: 25px;">
-                <p style="color: white">Linkedin</p></div></button>
+            <a href="https://www.linkedin.com/in/luis-lanzarin-7a77aa267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ">
+                <button class="contatos"><div style="display: flex; align-items: center;"><img class="imglogos" src="linkedin.png">
+                <p style="color: #22D4FD">Linkedin</p></div></button>
             </a>
-            <a href="https://wa.me/5569981054315">
-                <button class="glow-on-hover"><div style="display: flex; align-items: center;"><img src="whatsapp.png" style="width: 25px; height: 25px;">
-                <p style="color: white">WhatsApp</p></div></button>
+            <a href="https://wa.me/5569981054315"><button class="contatos">
+               <div style="display: flex; align-items: center;"><img class="imglogos" src="whatsapp.png">
+               <p style="color: #22d4fd">WhatsApp</p></div></button>
             </a>
         </footer>
     </body>
     <!---header, main e footer são exemplos de tags semânticas--->
 </html>
-
