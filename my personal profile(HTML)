@@ -17,14 +17,12 @@
            <br><strong class="titulo">Luis Lanzarin's portfolio</strong></h1>
            </div>
         </header>
-        <main><!---Meio do site/app, informações centrais--->
-           <h1><strong class="subtitulo">Portfolio under construction</strong></h1>
+        <main class="projetos"><!---Meio do site/app, informações centrais--->
+           <section><h1><strong class="subtitulo">Portfolio under construction</strong></h1>
             <p>Hi, I'm Luis Lanzarin, a <strong class="importante">fullstack developer</strong> specializing in 
             <strong class="importante">Python</strong> and <strong class="importante">HTML</strong>, trained in ALURA 
-            courses and developing freelance projects. Here's my portfolio of projects:</p>  
-        </main>    
-        <footer><!---Rodapé do site/app, informações finais--->
-            <h4>Contatos:</h4>
+            courses and developing freelance projects. Here's my portfolio of projects:</p></section>
+            <br><h4>Contatos:</h4>
             <a href="https://www.instagram.com/luis_lanzarinn/"><button class="contatos">
                <div class="botton" style="display: flex; align-items: center;"><img class="imglogos" src="LogoInstagram.png">
                <p style="color: #22D4FD">Instagram</p></div></button>    
@@ -41,6 +39,8 @@
                <div style="display: flex; align-items: center;"><img class="imglogos" src="whatsapp.png">
                <p style="color: #22d4fd">WhatsApp</p></div></button>
             </a>
+        </main>    
+        <footer><!---Rodapé do site/app, informações finais--->
         </footer>
     </body>
     <!---header, main e footer são exemplos de tags semânticas--->
