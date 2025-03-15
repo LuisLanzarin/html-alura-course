@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
     background-color: black;
     color: #e5e5e5;
@@ -22,31 +23,36 @@ header {
 video {
     margin-left: 0;
 }
-.titulo{
+.introducao{
     color: #22D4FD;
-}
-.subtitulo{
-    color: #22D4FD;
-}
-.importante {
-    color: #22D4FD
 }
 .projetos{
     color: #e5e5e5;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    margin: 10%;
+    
+}
+.projetos__apresentacao{
+    width: 615px;
+}
+.projetos__titulo{
+    font-size: 40px;
+    color: #22D4FD;
+    font-family: "Krona One", sans-serif;
+}
+.projetos__apresentacao__texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+.projetos__importante {
+    color: #22D4FD
 }
 footer {
     margin-top: 0;
     color: #e5e5e5;
 }
-a {
-    color: white;
-    border-color: aqua;
-}
 .contatos {
-    width: 120px;
+    width: 150px;
     height: 50px;
     border: none;
     outline: none;
@@ -54,8 +60,15 @@ a {
     background: black; /* Mantém o fundo preto */
     cursor: pointer;
     position: relative;
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 16px; /* Bordas arredondadas */
     transition: all 0.3s ease-in-out;
+    display: flexbox;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Krona One", sans-serif;
+    padding: 21,5px 0;
+    text-decoration: none;
 }
 /* Pseudo-elemento para criar o brilho */
 .contatos::before {
@@ -69,7 +82,7 @@ a {
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
-    border-radius: 12px;
+    border-radius: 16px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     top: -2px;
