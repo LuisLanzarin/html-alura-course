@@ -13,16 +13,18 @@
         <source src="videologo.mp4" type="video/mp4">
     </video>
            <div style="display: flex; align-content: center;">
-           <h1><strong class="titulo">Portfólio de Luis Lanzarin</strong>
-           <br><strong class="titulo">Luis Lanzarin's portfolio</strong></h1>
+           <h1><strong class="introducao">Portfólio de Luis Lanzarin</strong>
+           <br><strong class="introducao">Luis Lanzarin's portfolio</strong></h1>
            </div>
         </header>
         <main class="projetos"><!---Meio do site/app, informações centrais--->
-           <section><h1><strong class="subtitulo">Portfolio under construction</strong></h1>
-            <p>Hi, I'm Luis Lanzarin, a <strong class="importante">fullstack developer</strong> specializing in 
-            <strong class="importante">Python</strong> and <strong class="importante">HTML</strong>, trained in ALURA 
+           <section class="projetos__apresentacao"><h1><strong class="projetos__titulo">Portfolio under construction</strong></h1>
+            <p class="projetos__apresentacao__texto">Hi, I'm Luis Lanzarin, a <strong class="projetos__importante">fullstack developer</strong> specializing in 
+            <strong class="pojetos__importante">Python</strong> and <strong class="projetos__importante">HTML</strong>, trained in ALURA 
             courses and developing freelance projects. Here's my portfolio of projects:</p></section>
-            <br><h4>Contatos:</h4>
+        </main>    
+        <footer><!---Rodapé do site/app, informações finais--->
+        <br><h4>Contatos:</h4>
             <a href="https://www.instagram.com/luis_lanzarinn/"><button class="contatos">
                <div class="botton" style="display: flex; align-items: center;"><img class="imglogos" src="LogoInstagram.png">
                <p style="color: #22D4FD">Instagram</p></div></button>    
@@ -39,9 +41,8 @@
                <div style="display: flex; align-items: center;"><img class="imglogos" src="whatsapp.png">
                <p style="color: #22d4fd">WhatsApp</p></div></button>
             </a>
-        </main>    
-        <footer><!---Rodapé do site/app, informações finais--->
         </footer>
     </body>
     <!---header, main e footer são exemplos de tags semânticas--->
 </html>
+
